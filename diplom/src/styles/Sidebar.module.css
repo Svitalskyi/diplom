@@ -1,0 +1,40 @@
+.sidebar {
+  width: 19rem;
+  padding: 1.5rem;
+  height: 26.438rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-weight: 600;
+  line-height: 1.25rem;
+}
+
+.menu {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: .75rem;
+}
+
+.link {
+  color: var(--dark-sea);
+  font-size: .875rem;
+  line-height: 1.063rem;
+  text-transform: capitalize;
+}
+
+.link:hover {
+  color: var(--white);
+}
+
+.link.active {
+  color: var(--violet);
+}
+
+.footer {
+  margin-top: auto;
+  display: flex;
+  justify-content: space-between;
+}

@@ -1,0 +1,52 @@
+.wrapper {
+  width: 100%;
+  padding: 1.5rem;
+  flex-grow: 1;
+}
+
+.filters {
+  display: flex;
+  gap: 1.25rem;
+  width: 100%;
+  margin-top: 1.5rem;
+}
+
+.filter {
+  background: var(--bg);
+  border-radius: .5rem;
+  padding: .75rem 1.5rem;
+  width: max-content;
+  display: flex;
+  align-items: center;
+  min-width: 14.063rem;
+}
+
+.full {
+  width: 100%;
+}
+
+.filter input {
+  font-weight: 400;
+  font-size: .813rem;
+  line-height: 1rem;
+}
+
+.filter span {
+  font-weight: 400;
+  font-size: .813rem;
+  line-height: 1rem;
+  color: var(--dark-sea);
+  text-align: right;
+}
+
+.more {
+  margin: 2rem auto 0 auto;
+  text-align: center;
+}
+
+.back {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  margin-top: 1.5rem;
+}

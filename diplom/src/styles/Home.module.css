@@ -1,0 +1,129 @@
+.home {
+  position: relative;
+  flex-grow: 1;
+}
+
+.title {
+  font-weight: 900;
+  font-size: 7.44rem;
+  line-height: 9.06rem;
+  text-transform: uppercase;
+  color: var(--bg);
+  text-align: center;
+}
+
+.product {
+  position: relative;
+  padding-left: 2.625rem;
+  display: flex;
+  align-items: stretch;
+  margin-top: .56rem;
+}
+
+.subtitle {
+  line-height: 1.25rem;
+  text-transform: uppercase;
+  color: var(--sea);
+}
+
+.head {
+  font-weight: 700;
+  font-size: 2.625rem;
+  line-height: 3.19rem;
+  text-transform: uppercase;
+  color: var(--light);
+  max-width: 31.25rem;
+  margin: .625rem 0 2rem 0;
+}
+
+.image {
+  position: relative;
+  flex-grow: 1;
+  height: 15.625rem;
+}
+
+.image img {
+  position: absolute;
+  bottom: -15%;
+  right: 10%;
+  max-width: unset;
+}
+
+.banner {
+  display: flex;
+  width: 100%;
+  height: 35.625rem;
+}
+
+.left {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  z-index: 2;
+}
+
+.left:before,
+.left:after {
+  content: "";
+  display: block;
+  position: absolute;
+}
+
+.left:before {
+  width: 12.75rem;
+  height: 10.625rem;
+  left: -1.56rem;
+  bottom: 4.625rem;
+  background: url(../images/shoe.png) no-repeat center/contain;
+}
+
+.left:after {
+  width: 16.81rem;
+  height: 9.44rem;
+  right: -1.56rem;
+  bottom: -1.56rem;
+  background: url(../images/devices.png) no-repeat center/contain;
+}
+
+.content {
+  color: var(--violet);
+  font-weight: 300;
+  font-size: 4.375rem;
+  line-height: 5.31rem;
+  text-align: center;
+}
+
+.content span {
+  line-height: 11.438rem;
+  font-size: 9.375rem;
+  display: block;
+}
+
+.more {
+  margin-top: 1.688rem;
+}
+
+.right {
+  width: 50%;
+  position: relative;
+}
+
+.discount {
+  font-weight: 500;
+  font-size: 1.25rem;
+  line-height: 2rem;
+  text-align: center;
+  color: var(--bg);
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 17rem;
+}
+
+.discount span {
+  color: var(--violet);
+  font-weight: 700;
+}

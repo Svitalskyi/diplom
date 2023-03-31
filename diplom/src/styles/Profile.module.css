@@ -1,0 +1,22 @@
+.profile {
+  flex-grow: 1;
+  padding: 1.5rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  row-gap: .625rem;
+}
+
+.group {
+  width: 100%;
+  background: #212123;
+  border-radius: .5rem;
+  color: var(--light);
+  padding: .75rem 1.5rem;
+}
+
+.group input {
+  width: 100%;
+}

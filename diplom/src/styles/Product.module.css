@@ -1,0 +1,132 @@
+.product {
+  display: flex;
+  flex-grow: 1;
+  max-width: calc(100% - 20.25rem);
+  padding: 1.5rem;
+  column-gap: 2rem;
+  color: var(--light);
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+}
+
+.images {
+  display: flex;
+  gap: 1.25rem;
+}
+
+.current {
+  width: 23.438rem;
+  height: 23.438rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: .375rem;
+}
+
+.images-list {
+  display: flex;
+  flex-direction: column;
+  row-gap: .313rem;
+}
+
+.image {
+  width: 5.625rem;
+  height: 5.625rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: .375rem;
+  cursor: pointer;
+}
+
+.title {
+  font-size: 1.125rem;
+  line-height: 1.375rem;
+  font-weight: 500;
+}
+
+.price {
+  font-weight: 700;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  margin: .625rem 0 1.25rem 0;
+}
+
+.color,
+.sizes {
+  font-size: .875rem;
+  line-height: 1.063rem;
+  text-transform: capitalize;
+  display: flex;
+  column-gap: 1rem;
+  align-items: center;
+}
+
+.sizes {
+  margin: 1rem 0;
+}
+
+.color span,
+.sizes span {
+  font-size: .875rem;
+  line-height: 1.063rem;
+  color: var(--dark-sea);
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  column-gap: .313rem;
+}
+
+.size {
+  padding: .25rem .5rem;
+  border-radius: .5rem;
+  background: var(--bg);
+  cursor: pointer;
+}
+
+.size:hover,
+.size.active {
+  background: var(--violet);
+}
+
+.description {
+  font-weight: 400;
+  font-size: .75rem;
+  line-height: .938rem;
+  color: var(--grey);
+}
+
+.actions {
+  margin-top: 1.25rem;
+  display: flex;
+  column-gap: .625rem;
+}
+
+.favourite {
+  background: var(--dark-sea);
+  border-radius: .375rem;
+}
+
+.favourite:hover {
+  background: #7a8690;
+}
+
+.bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: .625rem;
+  line-height: .75rem;
+  color: var(--dark-sea);
+  margin-top: auto;
+}
+
+.add:disabled {
+  cursor: not-allowed;
+  background: var(--bg);
+}
